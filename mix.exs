@@ -44,8 +44,8 @@ defmodule Arc.Mixfile do
       {:httpoison, "~> 0.13"}, # Required for downloading remote files
 
       # If using Amazon S3
-      {:ex_aws, "~> 2.0", optional: true},
-      {:ex_aws_s3, "~> 2.0", optional: true},
+      {:ex_aws, "~> 2.1", optional: true},
+      {:ex_aws_s3, git: "https://github.com/OnceApp/ex_aws_s3.git", optional: true},
       {:poison, "~> 2.2 or ~> 3.1", optional: true},
       {:sweet_xml, "~> 0.6", optional: true},
 
